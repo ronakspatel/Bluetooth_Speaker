@@ -1,2 +1,2 @@
 # Bluetooth Speaker
-![Example Image](PCB.HEIC)
+![PCB](PCB.HEIC)
