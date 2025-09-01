@@ -1,4 +1,4 @@
-# 🎵 Bluetooth Speaker Project  
+# Bluetooth Speaker Project  
 
 Hello! My name is **Ronak Patel**, and this repository contains my work on building a **Bluetooth speaker with a metadata display**.  
 
@@ -16,7 +16,7 @@ This project became an opportunity to learn the **full EE process**: embedded pr
 
 ---
 
-## 📐 High-Level Design  
+## High-Level Design  
 
 ### ESP32-WROOM-32 (Bluetooth Classic, A2DP sink)  
 - Uses the [pschatzmann A2DP library](https://github.com/pschatzmann/ESP32-A2DP)  
@@ -35,11 +35,11 @@ This project became an opportunity to learn the **full EE process**: embedded pr
 ### Power System  
 - **3S2P Li-ion battery pack** + **buck converter**  
 - Amplifier powered directly from the battery via DC barrel jack  
-- ESP32 tapped via screw terminal  
+- ESP32 power tapped via screw terminal  
 
 ---
 
-## ⚡ Amplifier Board (Custom PCB)  
+## Amplifier Board (Custom PCB)  
 
 ### TPA3116D2 (Class D Audio Amp)  
 - High power output, good fidelity  
@@ -55,7 +55,7 @@ This project became an opportunity to learn the **full EE process**: embedded pr
 
 ---
 
-## 🔧 Current Status  
+## Current Status  
 
 - ✅ Speaker is **functional**, with enclosure designed (cutting pending)  
 - ⚠️ Issues with the **RK09712200MY pot** (rated for 9V, running at 20V):  
@@ -67,7 +67,7 @@ This project became an opportunity to learn the **full EE process**: embedded pr
 
 ---
 
-## 🚀 Future Improvements  
+## Future Improvements  
 - Integrate **all components** into one PCB  
 - Refine **FFT visualization** for better frequency distribution  
 - Replace problematic **potentiometer** with a properly rated alternative  
