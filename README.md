@@ -10,7 +10,8 @@ Hello, my name is Ronak Patel. This repository holds the files for a bluetooth s
 - Metadata such as Song title, Artist, and album title are displayed to the upper half of the display
 - Audio signals are tapped at the amplifier and fed back to the ESP32 for FFT bin allocation and visualizer display
 - Pushing the display as a sprite is essential to a smooth GUI
-
+### Lithium Ion 3S2P battery pack and Buck Converter simultaneously power the ESP32 and amplifier board
+- The DC barrell jack attached to the battery pack is connected directly to the amplifier board, but power can be tapped via a screw terminal for which the ESP32 is powered
 # Current Status and Improvements
 - Currently, the speaker is fully functional and also has an enclosure; however, I do not have the tools to cut the enclosure. I intend on doing this at my college campus in the future though
 - The RK09722MY dual pot seems to be an issue as I did not consider its voltage rating of 9V and it is instead running off 20V. For some reason, rather than volume control, the circuit seems to change the balance between left and right audio. Additionally, both output terminals do not seem to work concurrently at all loads, and I think this is also because of how the RK09722MY is behaving
