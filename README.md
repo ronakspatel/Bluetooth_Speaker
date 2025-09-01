@@ -57,13 +57,11 @@ This project became an opportunity to learn the **full EE process**: embedded pr
 
 ## Current Status  
 
-- ✅ Speaker is **functional**, with enclosure designed (cutting pending)  
-- ⚠️ Issues with the **RK09712200MY pot** (rated for 9V, running at 20V):  
+- Speaker is **functional**, with enclosure designed (cutting pending)  
+- Issues with the **RK09712200MY pot** (rated for 9V, running at 20V):  
   - Behaves like a balance control instead of volume  
   - Both output channels not stable under all loads  
-- ⚠️ Audio visualizer: bass frequencies **dominate FFT output**, needs better equalization  
-- ⚠️ Noise issues due to grounding:  
-  - Would redesign so **ESP32 + PCM5102A + amp live on a single PCB** with a **solid ground plane**  
+- Audio visualizer: bass frequencies **dominate FFT output**, needs better equalization  
 
 ---
 
