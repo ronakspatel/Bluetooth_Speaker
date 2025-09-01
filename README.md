@@ -73,3 +73,8 @@ This project became an opportunity to learn the **full EE process**: embedded pr
 
 ---
 
+## Pictures
+<img src="images/Speaker.png" alt="PCB" width="200"/>
+<img src="images/PCB" alt="PCB" width="200"/>
+<img src="images/TFT.GIF" alt="PCB" width="200"/>
+
